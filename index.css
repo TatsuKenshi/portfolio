@@ -1,0 +1,27 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+nav {
+  background: cyan;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.featured-projects {
+  padding-top: 275px;
+  height: 1000px;
+}
+
+.featured-projects-container {
+  display: flex;
+}
+
+.info {
+  height: 1000px;
+}
