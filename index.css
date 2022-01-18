@@ -3,18 +3,46 @@
   margin: 0;
 }
 
+body {
+  color: white;
+}
+
 nav {
-  background: cyan;
+  /* background: teal; */
   position: fixed;
   width: 100vw;
 }
 
 .nav-container {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.links {
   display: flex;
 }
 
+.navlink {
+  margin-right: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.hero {
+  padding-top: 100px;
+  height: 500px;
+  background: linear-gradient(to top left, white, cyan, steelblue);
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
 .featured-projects {
-  padding-top: 275px;
   height: 1000px;
 }
 
@@ -24,4 +52,8 @@ nav {
 
 .info {
   height: 1000px;
+}
+
+li {
+  list-style: none;
 }
