@@ -225,22 +225,32 @@ a {
 
 .about-container {
   background: teal;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 .my-links {
   background: cyan;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 .it-education {
   background: pink;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 .skills {
   background: green;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 .motto {
   background: brown;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 footer {
