@@ -44,12 +44,7 @@ a {
 }
 
 .burger {
-  width: 40px;
-  height: 35px;
-  margin-right: 25px;
   display: none;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .stripe-1,
@@ -140,10 +135,6 @@ a {
   justify-content: space-evenly;
 }
 
-.featured-technologies {
-  color: rgb(90, 90, 90);
-}
-
 .featured-btn {
   padding: 5px 20px;
   border-radius: 5px;
@@ -159,15 +150,12 @@ a {
   color: white;
 }
 
-.featured-info-div {
-  padding: 25px 10px;
-  color: rgba(0, 128, 128, 0.75);
-}
-
 .featured-technologies {
+  padding: 25px 10px;
   text-align: center;
   margin-bottom: 20px;
   height: 100px;
+  color: rgb(90, 90, 90);
 }
 
 .all-projects {
@@ -333,7 +321,6 @@ li {
   .burger {
     width: 40px;
     height: 35px;
-    /* background: magenta; */
     margin-left: auto;
     margin-right: 5%;
     display: flex;
@@ -359,65 +346,25 @@ li {
   }
 
   .featured-projects {
-    /* background-color: magenta; */
     width: 100%;
     margin: 0;
-    text-align: center;
     padding: 100px 0px 20px 0px;
   }
 
   .all-projects {
-    /* background: magenta; */
     width: 100%;
     margin: 0;
-    text-align: center;
-    padding: 100px 0px 0px 0px;
-    color: rgb(90, 90, 90);
-  }
-
-  .regular-project {
-    height: max-content;
   }
 
   .info {
-    /* background: magenta; */
     width: 100%;
-    margin: 0;
-    text-align: center;
     padding: 100px 0px 20px 0px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .narrow-menu {
-    margin-top: 85px;
-    position: fixed;
-    width: 100vw;
-    background: rgba(90, 90, 90, 0.9);
-    display: block;
-    z-index: 100;
-  }
-
-  .no-display {
-    display: none;
-  }
-
-  .narrow-menu-item {
-    padding-left: 10px;
-  }
-
-  .featured-projects {
-    /* background-color: magenta; */
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 100px 0px 20px 0px;
-  }
-
   .featured-item {
     width: 100%;
-    /* margin: 1%; */
-    /* background: lime; */
     background: white;
     border-radius: 5px;
   }
@@ -433,43 +380,18 @@ li {
 
   .featured-btn {
     padding: 10px 0px;
-    width: 90vw;
-    border-radius: 5px;
-    font-weight: 800;
-    background: none;
-    border: 1px solid rgba(0, 128, 128, 0.75);
-    color: rgba(0, 128, 128, 0.75);
+    width: 95vw;
     margin-top: 10px;
   }
 
   .all-projects {
-    /* background: magenta; */
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
     padding: 100px 0px 0px 0px;
-    color: rgb(90, 90, 90);
-  }
-
-  .all-projects > h2 {
-    color: rgba(0, 128, 128, 0.75);
-    font-size: 30px;
-    font-weight: 900;
-    margin-bottom: 10px;
   }
 
   .regular-project {
-    background: white;
-    width: inherit;
-    margin: 20px 0;
     display: block;
-    /* border: 1px solid rgba(0, 128, 128, 0.75); */
-    border-radius: 5px;
     height: max-content;
-  }
-
-  .regular-image-div {
-    padding: 0;
   }
 
   .regular-thumb {
@@ -481,31 +403,14 @@ li {
     padding: 10px;
   }
 
-  .regular-name,
-  .regular-technologies {
-    height: max-content;
-  }
-
-  .regular-description {
-    height: max-content;
-  }
-
   .regular-links {
     display: block;
     height: 70px;
   }
 
   .regular-btn {
-    width: 90vw;
+    width: 95vw;
     padding: 10px 0px;
     margin-top: 10px;
-  }
-
-  .info {
-    /* background: magenta; */
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 100px 0px 20px 0px;
   }
 }
