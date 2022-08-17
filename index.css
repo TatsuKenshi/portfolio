@@ -40,6 +40,10 @@ nav {
   margin-right: 30px;
 }
 
+.navlink a:hover {
+  color: rgb(225, 47, 21);
+}
+
 a {
   color: white;
   text-decoration: none;
