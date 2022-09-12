@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Miroslav Stankov Portfolio</title>
     <link rel="stylesheet" href="./index.css" />
-    <!-- <link
-      rel="stylesheet"
-      href="./node_modules/@fortawesome/fontawesome-free/css/all.css"
-    /> -->
     <link
       rel="stylesheet"
       href="https://fontawesome.com/kits/73390ff92a/settings#domains"
@@ -22,6 +18,7 @@
     ></script>
   </head>
   <body>
+    <!-- navbar -->
     <nav class="nav">
       <div class="nav-container">
         <div class="myPic-div">
@@ -32,7 +29,6 @@
               alt="prfile-pic"
               width="70px"
             />
-            <!-- <i class="fas fa-home"></i> -->
           </a>
         </div>
         <div class="links-container">
@@ -59,6 +55,7 @@
       </div>
     </nav>
 
+    <!-- dropdown menu -->
     <section class="narrow-menu no-display">
       <div class="narrow-menu-item">
         <a href="#"> <i class="fas fa-home"></i> Home</a>
@@ -74,6 +71,7 @@
       </div>
     </section>
 
+    <!-- hero -->
     <div class="hero">
       <div class="hero-container">
         <h2 class="title">Miroslav Stankov</h2>
@@ -103,6 +101,7 @@
       </div>
     </div>
 
+    <!-- featured projects -->
     <div class="featured-projects" id="featured">
       <h2># Featured Projects</h2>
       <div class="featured-projects-container">
@@ -173,19 +172,19 @@
         <div class="featured-item">
           <div class="featured-image-div">
             <img
-              src="./assets/hiawatha-comic-book-store.png"
+              src="./assets/reducer-context-cart.png"
               alt="image"
               class="featured-thumb"
             />
           </div>
           <div class="featured-name">
-            <h3>Hiawatha Comic Book Store</h3>
+            <h3>Reducer/Context Cart</h3>
           </div>
           <div class="featured-links">
-            <a href="https://github.com/TatsuKenshi/Nedelja9DomaciZaNedelju">
+            <a href="https://github.com/TatsuKenshi/cart-usereducer-usecontext">
               <button class="featured-btn">Code</button>
             </a>
-            <a href="https://hiawatha-comic-book-store.netlify.app/">
+            <a href="https://usereducer-usecontext-cart.netlify.app/">
               <button class="featured-btn">Live</button>
             </a>
           </div>
@@ -193,15 +192,17 @@
             <div class="featured-technologies">
               <p>HTML</p>
               <p>React.js</p>
-              <p>Styled Components</p>
-              <p>db.json</p>
-              <p>axios</p>
+              <p>useReducer/useContext</p>
+              <p>Tailwind.css</p>
+              <p>Hero Icons</p>
+              <p>Fetch API</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- all projects -->
     <section class="all-projects" id="all">
       <h2># All Projects</h2>
 
@@ -274,6 +275,44 @@
               <button class="regular-btn">Code</button>
             </a>
             <a href="https://cocktail-projects-react.netlify.app/">
+              <button class="regular-btn">Live</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="regular-project">
+        <div class="regular-image-div">
+          <img
+            src="./assets/reducer-context-cart.png"
+            alt="image"
+            class="regular-thumb"
+          />
+        </div>
+        <div class="regular-info-div">
+          <div class="regular-name">
+            <h3>Reducer/Context Cart</h3>
+          </div>
+          <div class="regular-technologies">
+            <p>
+              <strong>Tech:</strong> HTML, Tailwind CSS, React.js, Hero Icons,
+              Fetch API, John Smilga Course API
+            </p>
+          </div>
+          <div class="regular-description">
+            <p>
+              <strong>Description:</strong>The Reducer/Context Cart project is a
+              simple cart which automatically calculates the total price and
+              displays the total number of items in the navbar. It uses external
+              API, useReducer, and useContext hooks to display and manipulate
+              the data.
+            </p>
+          </div>
+          <div class="regular-links">
+            <a href="https://github.com/TatsuKenshi/cart-usereducer-usecontext">
+              <button class="regular-btn">Code</button>
+            </a>
+            <a href="https://usereducer-usecontext-cart.netlify.app/">
               <button class="regular-btn">Live</button>
             </a>
           </div>
@@ -423,6 +462,7 @@
       </div>
     </section>
 
+    <!-- info section -->
     <section class="info" id="info">
       <h2># Info Corner</h2>
       <div class="about-container">
@@ -438,7 +478,7 @@
         </div>
 
         <div class="it-education">
-          <h3>IT Experience</h3>
+          <h3>IT Experience and Education</h3>
           <p>
             A 3-month Frontend Web Development internship at Quantox Technology
             (Summer 2022)
