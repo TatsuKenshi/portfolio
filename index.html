@@ -6,16 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Miroslav Stankov Portfolio</title>
     <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fontawesome.com/kits/73390ff92a/settings#domains"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script
-      src="https://kit.fontawesome.com/73390ff92a.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <!-- navbar -->
@@ -26,7 +16,7 @@
             <img
               src="./assets/profile.png"
               class="profile-pic"
-              alt="prfile-pic"
+              alt="profile-pic"
               width="70px"
             />
           </a>
@@ -58,16 +48,23 @@
     <!-- dropdown menu -->
     <section class="narrow-menu no-display">
       <div class="narrow-menu-item">
-        <a href="#"> <i class="fas fa-home"></i> Home</a>
+        <a href="#"><img src="./assets/home.png" alt="home" /> Home</a>
       </div>
       <div class="narrow-menu-item">
-        <a href="#featured"> <i class="fas fa-code"></i> Featured Projects</a>
+        <a href="#featured"
+          ><img src="./assets/code-tags.png" alt="featured" /> Featured
+          Projects</a
+        >
       </div>
       <div class="narrow-menu-item">
-        <a href="#all"> <i class="fas fa-archive"></i> All Projects</a>
+        <a href="#all"
+          ><img src="./assets/folder.png" alt="all" /> All Projects</a
+        >
       </div>
       <div class="narrow-menu-item">
-        <a href="#info"> <i class="fas fa-info-circle"></i> Info</a>
+        <a href="#info"
+          ><img src="./assets/information.png" alt="info" /> Info</a
+        >
       </div>
     </section>
 
@@ -499,69 +496,117 @@
       </div>
     </section>
 
-    <!-- info section -->
     <section class="info" id="info">
       <h2># Info Corner</h2>
       <div class="about-container">
-        <h3>Name : Miroslav Stankov</h3>
-
-        <div class="my-links">
-          <h3>You can reach me here:</h3>
-          <a href="https://www.linkedin.com/in/miroslav-stankov-24712899/"
-            >Linkedin</a
-          >
-          <a href="https://github.com/TatsuKenshi">Github</a>
-          <p>email: stankovmiroslav85@gmail.com</p>
+        <div class="card-buttons">
+          <button class="card-btn">basic</button>
+          <button class="card-btn">experience</button>
+          <button class="card-btn">skills</button>
+          <button class="card-btn">motto</button>
         </div>
 
-        <div class="it-education">
-          <h3>IT Experience and Education</h3>
-          <p>
-            A 3-month Frontend Web Development internship at Quantox Technology
-            (Summer 2022)
-          </p>
-          <br />
-          <p>
-            IT Bootcamp's Front End Web Development Course (late 2021)
-            <br />
-            A 160-hour course on front-end development (JavaScript + React.js)
-          </p>
-          <br />
-          <p>Various Udemy courses on HTML, CSS, Javascript, and React.js</p>
-        </div>
+        <div class="pics-and-info">
+          <div class="photo-section">
+            <img
+              src="./assets/profile.png"
+              class="profile-pic"
+              alt="profile-pic"
+              width="150px"
+            />
+          </div>
 
-        <div class="skills">
-          <h3>Skills</h3>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>React.js</p>
-          <p>git</p>
-          <p>db.JSON</p>
-          <p>axios</p>
-          <p>Node.js</p>
-          <p>Using API</p>
-          <p>Basic CI/CD</p>
-        </div>
+          <div class="info-section" id="basic">
+            <div class="basic-info">
+              <h3>Name: Miroslav Stankov</h3>
+              <h3>City : Belgrade (Serbia)</h3>
+              <h3>Email : stankovmiroslav85@gmail.com</h3>
+              <a href="https://www.linkedin.com/in/miroslav-stankov-24712899/"
+                ><img src="./assets/linkedin.png" alt="linkedin"
+              /></a>
+              <a href="https://github.com/TatsuKenshi"
+                ><img src="./assets/github.png" alt="github"
+              /></a>
+            </div>
+          </div>
 
-        <div class="motto">
-          <h3>My Motto</h3>
-          <p>
-            It is said that when a samurai receives his two swords, his soul
-            merges with the blades and he is only allowed to use them for good.
-            The road to mastering the blades is tough, long, and winding, but
-            the samurai has no qualms about it. Let coding and debugging become
-            my swords!
-          </p>
+          <div class="info-section no-display" id="experience">
+            <div class="experience">
+              <div class="experience-item">
+                <h3>Quantox Technology (Summer 2022)</h3>
+                <p>
+                  - 3-month Frontend Web Development internship at Quantox
+                  Technology
+                </p>
+                <p>
+                  - I worked with a mentor and a small team on in-house projects
+                </p>
+                <p>
+                  - We used react-router, tailwind.css, redux, fetch/axios,
+                  external APIs, <br />
+                  context/reducer, custom hooks, useForm hook, Headless UI...
+                </p>
+              </div>
+
+              <div class="experience-item">
+                <h3>IT BootCamp (Summer 2021)</h3>
+                <p>
+                  - 160-hour, 10-week course on front-end development
+                  (JavaScript + React.js)
+                </p>
+              </div>
+
+              <div class="experience-item">
+                <h3>Udemy (Since Summer 2020)</h3>
+                <p>- John Smilga's JavaScript Course w/Projects (50+ hours)</p>
+                <p>- John Smilga's React.js Course w/Projects (50+ hours)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-section no-display" id="skills">
+            <div class="skills">
+              <h3>Skills</h3>
+              <button class="skill-btn">HTML</button>
+              <button class="skill-btn">CSS</button>
+              <button class="skill-btn">tailwind.css</button>
+              <button class="skill-btn">SASS</button>
+              <button class="skill-btn">Headless UI</button>
+              <button class="skill-btn">JavaScript</button>
+              <button class="skill-btn">AJAX</button>
+              <button class="skill-btn">async/await</button>
+              <button class="skill-btn">Fetch</button>
+              <button class="skill-btn">React.js</button>
+              <button class="skill-btn">Custom Hooks</button>
+              <button class="skill-btn">useReducer</button>
+              <button class="skill-btn">useContext</button>
+              <button class="skill-btn">Redux/Toolkit</button>
+              <button class="skill-btn">axios</button>
+              <button class="skill-btn">styled components</button>
+              <button class="skill-btn">Git</button>
+            </div>
+          </div>
+
+          <div class="info-section no-display" id="motto">
+            <div class="motto">
+              <h3>My Motto</h3>
+              <p>
+                It is said that when a samurai receives his two swords, his soul
+                merges with the blades and he is only allowed to use them for
+                good. The road to mastering the blades is tough, long, and
+                winding, but the samurai has no qualms about it. Let coding and
+                debugging become my swords!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <footer>
-      <p>Made by Miroslav Stankov, 2022.</p>
+      <h3>Made by Miroslav Stankov, 2022.</h3>
     </footer>
 
     <script src="./index.js"></script>
-    <!-- <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script> -->
   </body>
 </html>
