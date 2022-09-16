@@ -285,6 +285,10 @@ a {
   border-radius: 5px;
 }
 
+.about-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .card-buttons {
   padding: 5px 5px 5px 5px;
 }
@@ -454,6 +458,7 @@ li {
     width: 100%;
     background: white;
     border-radius: 5px;
+    margin-bottom: 20px;
   }
 
   .featured-thumb {
@@ -461,14 +466,15 @@ li {
     height: 56vw;
   }
 
-  .featured-links {
-    display: block;
+  .featured-links a {
+    width: 48%;
+    margin: auto;
   }
 
   .featured-btn {
     padding: 10px 0px;
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
   }
 
   .all-projects {
@@ -480,7 +486,7 @@ li {
   .regular-project {
     display: block;
     height: max-content;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .regular-thumb {
@@ -494,15 +500,14 @@ li {
   }
 
   .regular-links {
-    display: block;
+    /* display: block; */
     height: max-content;
   }
 
   .regular-btn {
-    width: 100%;
+    width: 48%;
     padding: 10px 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
   }
 
   .info {
@@ -512,6 +517,32 @@ li {
 }
 
 @media only screen and (max-width: 550px) {
+  .featured-links {
+    display: block;
+  }
+
+  .featured-links a {
+    width: 100%;
+    margin: auto;
+  }
+
+  .featured-btn {
+    padding: 10px 0px;
+    width: 95%;
+    margin: 10px 5px 0 5px;
+  }
+
+  .regular-links {
+    display: block;
+    height: max-content;
+  }
+
+  .regular-btn {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0;
+  }
+
   .pics-and-info {
     display: block;
     padding: 10px;
