@@ -89,6 +89,12 @@ a {
   animation: hero 10s ease infinite;
 }
 
+.hero img {
+  height: 30px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 @keyframes hero {
   0% {
     background-position: 0% 50%;
