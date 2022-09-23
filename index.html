@@ -1,619 +1,710 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Miroslav Stankov Portfolio</title>
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="nav">
-      <div class="nav-container">
-        <div class="myPic-div">
-          <a href="#">
-            <img
-              src="./assets/profile.png"
-              class="profile-pic"
-              alt="profile-pic"
-              width="70px"
-            />
-          </a>
-        </div>
-        <div class="links-container">
-          <ul class="links">
-            <li class="navlink">
-              <a href="#">Home</a>
-            </li>
-            <li class="navlink">
-              <a href="#featured">Featured</a>
-            </li>
-            <li class="navlink">
-              <a href="#all">All Projects</a>
-            </li>
-            <li class="navlink">
-              <a href="#info">Info</a>
-            </li>
-          </ul>
-        </div>
-        <div class="burger">
-          <div class="stripe-1"></div>
-          <div class="stripe-2"></div>
-          <div class="stripe-3"></div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- dropdown menu -->
-    <section class="narrow-menu no-display">
-      <div class="narrow-menu-item">
-        <a href="#"><img src="./assets/home.png" alt="home" /> Home</a>
-      </div>
-      <div class="narrow-menu-item">
-        <a href="#featured"
-          ><img src="./assets/code-tags.png" alt="featured" /> Featured
-          Projects</a
-        >
-      </div>
-      <div class="narrow-menu-item">
-        <a href="#all"
-          ><img src="./assets/folder.png" alt="all" /> All Projects</a
-        >
-      </div>
-      <div class="narrow-menu-item">
-        <a href="#info"
-          ><img src="./assets/information.png" alt="info" /> Info</a
-        >
-      </div>
-    </section>
-
-    <!-- hero -->
-    <div class="hero">
-      <div class="hero-container">
-        <h2 class="title">Miroslav Stankov</h2>
-        <p><strong>Frontend Web Developer</strong></p>
-        <a href="#featured">
-          <button class="hero-button">Featured Projects</button>
-        </a>
-        <a href="#all">
-          <button class="hero-button">All Projects</button>
-        </a>
-        <br />
-        <br />
-        <h3>
-          Hi, I'm Miroslav. I am a frontend web developer in search of my first
-          employment.
-        </h3>
-        <br />
-        <h3>My Motto</h3>
-        <p>
-          It is said that when a samurai receives his two swords, <br />
-          his soul merges with the blades and he is only allowed to use them for
-          good. <br />
-          The road to mastering the blades is tough, long, and winding, <br />
-          but the samurai has no qualms about it. <br />
-          Let coding and debugging become my swords!
-        </p>
-        <br />
-        <a href="https://www.linkedin.com/in/miroslav-stankov-24712899/"
-          ><img src="./assets/linkedin.png" alt="linkedin"
-        /></a>
-        <a href="https://github.com/TatsuKenshi"
-          ><img src="./assets/github.png" alt="github"
-        /></a>
-      </div>
-    </div>
-
-    <!-- featured projects -->
-    <div class="featured-projects" id="featured">
-      <h2># Featured Projects</h2>
-      <div class="featured-projects-container">
-        <div class="featured-item">
-          <div class="featured-image-div">
-            <img
-              src="./assets/it-bootcamp-final-project-screenshot.png"
-              alt="image"
-              class="featured-thumb"
-            />
-          </div>
-          <div class="featured-name">
-            <h3>IT Bootcamp Final Project</h3>
-          </div>
-          <div class="featured-links">
-            <a href="https://github.com/TatsuKenshi/final-project-it-bootcamp">
-              <button class="featured-btn">Code</button>
-            </a>
-            <a href="https://it-bootcamp-final-project.netlify.app/">
-              <button class="featured-btn">Live</button>
-            </a>
-          </div>
-          <div class="featured-info-div">
-            <div class="featured-technologies">
-              <p>HTML</p>
-              <p>Styled Components</p>
-              <p>React.js</p>
-              <p>React-router</p>
-              <p>db.json</p>
-              <p>axios</p>
-              <p>MMO Bomb API</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Miroslav Stankov Portfolio</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="myPic-div">
+                    <a href="#">
+                        <img
+                            src="./assets/profile.png"
+                            class="profile-pic"
+                            alt="profile-pic"
+                            width="70px"
+                        />
+                    </a>
+                </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li class="navlink">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="navlink">
+                            <a href="#featured">Featured</a>
+                        </li>
+                        <li class="navlink">
+                            <a href="#all">All Projects</a>
+                        </li>
+                        <li class="navlink">
+                            <a href="#info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <div class="stripe-1"></div>
+                    <div class="stripe-2"></div>
+                    <div class="stripe-3"></div>
+                </div>
             </div>
-          </div>
-        </div>
+        </nav>
 
-        <div class="featured-item">
-          <div class="featured-image-div">
-            <img
-              src="./assets/cocktails-project-react.png"
-              alt="image"
-              class="featured-thumb"
-            />
-          </div>
-          <div class="featured-name">
-            <h3>Cocktails DB Project</h3>
-          </div>
-          <div class="featured-links">
-            <a href="https://github.com/TatsuKenshi/cocktails-project-react">
-              <button class="featured-btn">Code</button>
-            </a>
-            <a href="https://cocktail-projects-react.netlify.app/">
-              <button class="featured-btn">Live</button>
-            </a>
-          </div>
-          <div class="featured-info-div">
-            <div class="featured-technologies">
-              <p>HTML</p>
-              <p>React.js</p>
-              <p>React Router 6</p>
-              <p>React Icons</p>
-              <p>Tailwind CSS</p>
-              <p>axios</p>
-              <p>The Cocktail DB API</p>
+        <!-- dropdown menu -->
+        <section class="narrow-menu no-display">
+            <div class="narrow-menu-item">
+                <a href="#"><img src="./assets/home.png" alt="home" /> Home</a>
             </div>
-          </div>
-        </div>
-
-        <div class="featured-item">
-          <div class="featured-image-div">
-            <img
-              src="./assets/redux--react-cart-basic.png"
-              alt="image"
-              class="featured-thumb"
-            />
-          </div>
-          <div class="featured-name">
-            <h3>Basic Redux Cart</h3>
-          </div>
-          <div class="featured-links">
-            <a href="https://github.com/TatsuKenshi/cart-redux">
-              <button class="featured-btn">Code</button>
-            </a>
-            <a href="https://cart-redux-react-basic.netlify.app/">
-              <button class="featured-btn">Live</button>
-            </a>
-          </div>
-          <div class="featured-info-div">
-            <div class="featured-technologies">
-              <p>HTML</p>
-              <p>React.js</p>
-              <p>Redux</p>
-              <p>Tailwind.css</p>
-              <p>Hero Icons</p>
+            <div class="narrow-menu-item">
+                <a href="#featured"
+                    ><img src="./assets/code-tags.png" alt="featured" />
+                    Featured Projects</a
+                >
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- all projects -->
-    <section class="all-projects" id="all">
-      <h2># All Projects</h2>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/it-bootcamp-final-project-screenshot.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>IT Bootcamp Final Project</h3>
-          </div>
-          <div class="regular-technologies">
-            <p>
-              <strong>Tech:</strong> HTML, CSS, React.js, React-router, db.json,
-              axios, MMO Bomb API
-            </p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description:</strong> My Free Games is a site that allows
-              visitors to search free MMO games, game news, as well as MMO game
-              giveaways. Visitors can also create accounts, favorite/unfavorite
-              games, and buy mock merchandise with MFG (My Free Games) branding.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/final-project-it-bootcamp">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://it-bootcamp-final-project.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/cocktails-project-react.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>Cocktails DB Project</h3>
-          </div>
-          <div class="regular-technologies">
-            <p>
-              <strong>Tech:</strong> HTML, Tailwind CSS, React.js, React Router,
-              React Icons, axios, The Cocktail DB API
-            </p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description:</strong> The Cocktail DB Project is a simple
-              multi-page application that allows users to search the Cocktail DB
-              for their favorite drinks. The home page list offers basic info,
-              while the single cocktail page also displays ingredients and the
-              recipe.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/cocktails-project-react">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://cocktail-projects-react.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/redux--react-cart-basic.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>Basic Redux Cart</h3>
-          </div>
-          <div class="regular-technologies">
-            <p>
-              <strong>Tech:</strong> HTML, Tailwind CSS, React.js, Hero Icons,
-              Redux
-            </p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description:</strong>The Redux Cart project is a basic,
-              one-page cart app. It features a simple implementation of Redux,
-              without async functions or data fetching. The displayed data is
-              pulled from a local file. The project shares its base with the
-              Reducer/Context Cart project.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/cart-redux">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://cart-redux-react-basic.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/reducer-context-cart.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>Reducer/Context Cart</h3>
-          </div>
-          <div class="regular-technologies">
-            <p>
-              <strong>Tech:</strong> HTML, Tailwind CSS, React.js, Hero Icons,
-              Fetch API, John Smilga Course API
-            </p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description:</strong>The Reducer/Context Cart project is a
-              simple cart which automatically calculates the total price and
-              displays the total number of items in the navbar. It uses external
-              API, useReducer, and useContext hooks to display and manipulate
-              the data.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/cart-usereducer-usecontext">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://usereducer-usecontext-cart.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/hiawatha-comic-book-store.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>Hiawatha Comic Book Store</h3>
-          </div>
-          <div class="regular-technologies">
-            <p>
-              <strong>Tech:</strong> HTML, React.js, Styled Components, db.json,
-              axios
-            </p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description:</strong> The Hiawatha Comic Book Store is a
-              basic, one-page React.js app. It allows the user to add new
-              products via the entry form and calculate the price of items put
-              into the shopping cart. It was my first experiment with databases
-              (db.JSON) and axios during the bootcamp.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/Nedelja9DomaciZaNedelju">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://hiawatha-comic-book-store.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/monthly-budget-react-screenshot.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>Incomes and Expenses React</h3>
-          </div>
-          <div class="regular-technologies">
-            <p><strong>Tech:</strong> HTML, CSS, React.js</p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description:</strong> The Incomes and Expenses React is a
-              basic, one-page React.js app. It allows the user to calculate the
-              monthly balance and add and remove incomes and expenses. The app
-              automatically calculates debt percentages.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/Nedelja8DomaciZaNedelju">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://monthly-budget-react.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/js-market-screenshot.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>JS Market</h3>
-          </div>
-          <div class="regular-technologies">
-            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description: </strong>
-              The JS Market is a basic, one-page JavaScript app. It allows the
-              user to add existing products from the list into the shopping cart
-              and get the bill broken down by products.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/Nedelja6DomaciZaNedelju">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://js-market.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="regular-project">
-        <div class="regular-image-div">
-          <img
-            src="./assets/monthly-balance-project-js-screenshot.png"
-            alt="image"
-            class="regular-thumb"
-          />
-        </div>
-        <div class="regular-info-div">
-          <div class="regular-name">
-            <h3>Monthly Balance Project</h3>
-          </div>
-          <div class="regular-technologies">
-            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-          </div>
-          <div class="regular-description">
-            <p>
-              <strong>Description: </strong>
-              The Monthly Balance Project is a basic, one-page JavaScript app.
-              It allows the user to add and remove incomes and expenses, and
-              calculate the balance for the ongoing month. The project was made
-              after the fifth week of the IT Bootcamp's Front End Development
-              Course as the first big project in plain JavaScript.
-            </p>
-          </div>
-          <div class="regular-links">
-            <a href="https://github.com/TatsuKenshi/Projekat_01">
-              <button class="regular-btn">Code</button>
-            </a>
-            <a href="https://it-bootcamp-project-01.netlify.app/">
-              <button class="regular-btn">Live</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="info" id="info">
-      <h2># Info Corner</h2>
-      <div class="about-container">
-        <div class="card-buttons">
-          <button class="card-btn">basic</button>
-          <button class="card-btn">experience</button>
-          <button class="card-btn">skills</button>
-          <button class="card-btn">motto</button>
-        </div>
-
-        <div class="pics-and-info">
-          <div class="photo-section">
-            <img
-              src="./assets/profile.png"
-              class="profile-pic"
-              alt="profile-pic"
-              width="150px"
-            />
-          </div>
-
-          <div class="info-section" id="basic">
-            <div class="basic-info">
-              <h3>Name: Miroslav Stankov</h3>
-              <h3>City : Belgrade (Serbia)</h3>
-              <h3>Email : stankovmiroslav85@gmail.com</h3>
-              <a href="https://www.linkedin.com/in/miroslav-stankov-24712899/"
-                ><img src="./assets/linkedin.png" alt="linkedin"
-              /></a>
-              <a href="https://github.com/TatsuKenshi"
-                ><img src="./assets/github.png" alt="github"
-              /></a>
+            <div class="narrow-menu-item">
+                <a href="#all"
+                    ><img src="./assets/folder.png" alt="all" /> All Projects</a
+                >
             </div>
-          </div>
+            <div class="narrow-menu-item">
+                <a href="#info"
+                    ><img src="./assets/information.png" alt="info" /> Info</a
+                >
+            </div>
+        </section>
 
-          <div class="info-section no-display" id="experience">
-            <div class="experience">
-              <div class="experience-item">
-                <h3>Quantox Technology (Summer 2022)</h3>
+        <!-- hero -->
+        <div class="hero">
+            <div class="hero-container">
+                <h2 class="title">Miroslav Stankov</h2>
+                <p><strong>Frontend Web Developer</strong></p>
+                <a href="#featured">
+                    <button class="hero-button">Featured Projects</button>
+                </a>
+                <a href="#all">
+                    <button class="hero-button">All Projects</button>
+                </a>
+                <br />
+                <br />
+                <h3>
+                    Hi, I'm Miroslav. I am a frontend web developer in search of
+                    my first employment.
+                </h3>
+                <br />
+                <h3>My Motto</h3>
                 <p>
-                  - 3-month Frontend Web Development internship at Quantox
-                  Technology
+                    It is said that when a samurai receives his two swords,
+                    <br />
+                    his soul merges with the blades and he is only allowed to
+                    use them for good. <br />
+                    The road to mastering the blades is tough, long, and
+                    winding, <br />
+                    but the samurai has no qualms about it. <br />
+                    Let coding and debugging become my swords!
                 </p>
-                <p>
-                  - I worked with a mentor and a small team on in-house projects
-                </p>
-                <p>
-                  - We used react-router, tailwind.css, redux, fetch/axios,
-                  external APIs, <br />
-                  context/reducer, custom hooks, useForm hook, Headless UI...
-                </p>
-              </div>
-
-              <div class="experience-item">
-                <h3>IT BootCamp (Summer/Autumn 2021)</h3>
-                <p>
-                  - 160-hour, 10-week course on front-end development
-                  (JavaScript + React.js)
-                </p>
-              </div>
-
-              <div class="experience-item">
-                <h3>Udemy (Since Summer 2020)</h3>
-                <p>- John Smilga's JavaScript Course w/Projects (50+ hours)</p>
-                <p>- John Smilga's React.js Course w/Projects (50+ hours)</p>
-              </div>
+                <br />
+                <a href="https://www.linkedin.com/in/miroslav-stankov-24712899/"
+                    ><img src="./assets/linkedin.png" alt="linkedin"
+                /></a>
+                <a href="https://github.com/TatsuKenshi"
+                    ><img src="./assets/github.png" alt="github"
+                /></a>
             </div>
-          </div>
-
-          <div class="info-section no-display" id="skills">
-            <div class="skills">
-              <button class="skill-btn">HTML</button>
-              <button class="skill-btn">CSS</button>
-              <button class="skill-btn">tailwind.css</button>
-              <button class="skill-btn">SASS</button>
-              <button class="skill-btn">Headless UI</button>
-              <button class="skill-btn">JavaScript</button>
-              <button class="skill-btn">AJAX</button>
-              <button class="skill-btn">async/await</button>
-              <button class="skill-btn">Fetch</button>
-              <button class="skill-btn">React.js</button>
-              <button class="skill-btn">Custom Hooks</button>
-              <button class="skill-btn">useReducer</button>
-              <button class="skill-btn">useContext</button>
-              <button class="skill-btn">Redux/Toolkit</button>
-              <button class="skill-btn">axios</button>
-              <button class="skill-btn">styled components</button>
-              <button class="skill-btn">Git</button>
-              <button class="skill-btn">npm</button>
-              <button class="skill-btn">yarn</button>
-            </div>
-          </div>
-
-          <div class="info-section no-display" id="motto">
-            <div class="motto">
-              <p>
-                It is said that when a samurai receives his two swords, his soul
-                merges with the blades and he is only allowed to use them for
-                good. The road to mastering the blades is tough, long, and
-                winding, but the samurai has no qualms about it. Let coding and
-                debugging become my swords!
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
 
-    <footer>
-      <h3>Made by Miroslav Stankov, 2022.</h3>
-    </footer>
+        <!-- featured projects -->
+        <div class="featured-projects" id="featured">
+            <h2># Featured Projects</h2>
+            <div class="featured-projects-container">
+                <div class="featured-item">
+                    <div class="featured-image-div">
+                        <img
+                            src="./assets/it-bootcamp-final-project-screenshot.png"
+                            alt="image"
+                            class="featured-thumb"
+                        />
+                    </div>
+                    <div class="featured-name">
+                        <h3>IT Bootcamp Final Project</h3>
+                    </div>
+                    <div class="featured-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/final-project-it-bootcamp"
+                        >
+                            <button class="featured-btn">Code</button>
+                        </a>
+                        <a
+                            href="https://it-bootcamp-final-project.netlify.app/"
+                        >
+                            <button class="featured-btn">Live</button>
+                        </a>
+                    </div>
+                    <div class="featured-info-div">
+                        <div class="featured-technologies">
+                            <p>HTML</p>
+                            <p>Styled Components</p>
+                            <p>React.js</p>
+                            <p>React-router</p>
+                            <p>db.json</p>
+                            <p>axios</p>
+                            <p>MMO Bomb API</p>
+                        </div>
+                    </div>
+                </div>
 
-    <script src="./index.js"></script>
-  </body>
+                <div class="featured-item">
+                    <div class="featured-image-div">
+                        <img
+                            src="./assets/cocktails-project-react.png"
+                            alt="image"
+                            class="featured-thumb"
+                        />
+                    </div>
+                    <div class="featured-name">
+                        <h3>Cocktails DB Project</h3>
+                    </div>
+                    <div class="featured-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/cocktails-project-react"
+                        >
+                            <button class="featured-btn">Code</button>
+                        </a>
+                        <a href="https://cocktail-projects-react.netlify.app/">
+                            <button class="featured-btn">Live</button>
+                        </a>
+                    </div>
+                    <div class="featured-info-div">
+                        <div class="featured-technologies">
+                            <p>HTML</p>
+                            <p>React.js</p>
+                            <p>React Router 6</p>
+                            <p>React Icons</p>
+                            <p>Tailwind CSS</p>
+                            <p>axios</p>
+                            <p>The Cocktail DB API</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item">
+                    <div class="featured-image-div">
+                        <img
+                            src="./assets/redux-toolkit-blog.png"
+                            alt="image"
+                            class="featured-thumb"
+                        />
+                    </div>
+                    <div class="featured-name">
+                        <h3>Redux Toolkit Blog</h3>
+                    </div>
+                    <div class="featured-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/redux-toolkit-blog-project"
+                        >
+                            <button class="featured-btn">Code</button>
+                        </a>
+                        <a href="https://redux-toolkit-blog.netlify.app/">
+                            <button class="featured-btn">Live</button>
+                        </a>
+                    </div>
+                    <div class="featured-info-div">
+                        <div class="featured-technologies">
+                            <p>HTML</p>
+                            <p>React.js</p>
+                            <p>Redux Toolkit</p>
+                            <p>Async Thunks</p>
+                            <p>Tailwind.css</p>
+                            <p>axios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- all projects -->
+        <section class="all-projects" id="all">
+            <h2># All Projects</h2>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/it-bootcamp-final-project-screenshot.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>IT Bootcamp Final Project</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p>
+                            <strong>Tech:</strong> HTML, CSS, React.js,
+                            React-router, db.json, axios, MMO Bomb API
+                        </p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong> My Free Games is a
+                            site that allows visitors to search free MMO games,
+                            game news, as well as MMO game giveaways. Visitors
+                            can also create accounts, favorite/unfavorite games,
+                            and buy mock merchandise with MFG (My Free Games)
+                            branding.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/final-project-it-bootcamp"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a
+                            href="https://it-bootcamp-final-project.netlify.app/"
+                        >
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/cocktails-project-react.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Cocktails DB Project</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p>
+                            <strong>Tech:</strong> HTML, Tailwind CSS, React.js,
+                            React Router, React Icons, axios, The Cocktail DB
+                            API
+                        </p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong> The Cocktail DB
+                            Project is a simple multi-page application that
+                            allows users to search the Cocktail DB for their
+                            favorite drinks. The home page list offers basic
+                            info, while the single cocktail page also displays
+                            ingredients and the recipe.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/cocktails-project-react"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a href="https://cocktail-projects-react.netlify.app/">
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/redux-toolkit-blog.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Redux Toolkit Blog</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p>
+                            <strong>Tech:</strong> HTML, Tailwind CSS, React.js,
+                            React Router, Redux, Async Thunks, axios
+                        </p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong> The Redux Toolkit Blog
+                            is a simple multi-page app which allows users to
+                            view, create, update, and delete generic blog posts.
+                            Users can also react to posts via emojis.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/redux-toolkit-blog-project"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a href="https://redux-toolkit-blog.netlify.app/">
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/redux--react-cart-basic.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Basic Redux Cart</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p>
+                            <strong>Tech:</strong> HTML, Tailwind CSS, React.js,
+                            Hero Icons, Redux
+                        </p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong>The Redux Cart project
+                            is a basic, one-page cart app. It features a simple
+                            implementation of Redux, without async functions or
+                            data fetching. The displayed data is pulled from a
+                            local file. The project shares its base with the
+                            Reducer/Context Cart project.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a href="https://github.com/TatsuKenshi/cart-redux">
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a href="https://cart-redux-react-basic.netlify.app/">
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/reducer-context-cart.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Reducer/Context Cart</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p>
+                            <strong>Tech:</strong> HTML, Tailwind CSS, React.js,
+                            Hero Icons, Fetch API, John Smilga Course API
+                        </p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong>The Reducer/Context
+                            Cart project is a simple cart which automatically
+                            calculates the total price and displays the total
+                            number of items in the navbar. It uses external API,
+                            useReducer, and useContext hooks to display and
+                            manipulate the data.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/cart-usereducer-usecontext"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a
+                            href="https://usereducer-usecontext-cart.netlify.app/"
+                        >
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/hiawatha-comic-book-store.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Hiawatha Comic Book Store</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p>
+                            <strong>Tech:</strong> HTML, React.js, Styled
+                            Components, db.json, axios
+                        </p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong> The Hiawatha Comic
+                            Book Store is a basic, one-page React.js app. It
+                            allows the user to add new products via the entry
+                            form and calculate the price of items put into the
+                            shopping cart. It was my first experiment with
+                            databases (db.JSON) and axios during the bootcamp.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/Nedelja9DomaciZaNedelju"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a
+                            href="https://hiawatha-comic-book-store.netlify.app/"
+                        >
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/monthly-budget-react-screenshot.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Incomes and Expenses React</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p><strong>Tech:</strong> HTML, CSS, React.js</p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description:</strong> The Incomes and
+                            Expenses React is a basic, one-page React.js app. It
+                            allows the user to calculate the monthly balance and
+                            add and remove incomes and expenses. The app
+                            automatically calculates debt percentages.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/Nedelja8DomaciZaNedelju"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a href="https://monthly-budget-react.netlify.app/">
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/js-market-screenshot.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>JS Market</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description: </strong>
+                            The JS Market is a basic, one-page JavaScript app.
+                            It allows the user to add existing products from the
+                            list into the shopping cart and get the bill broken
+                            down by products.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a
+                            href="https://github.com/TatsuKenshi/Nedelja6DomaciZaNedelju"
+                        >
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a href="https://js-market.netlify.app/">
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="regular-project">
+                <div class="regular-image-div">
+                    <img
+                        src="./assets/monthly-balance-project-js-screenshot.png"
+                        alt="image"
+                        class="regular-thumb"
+                    />
+                </div>
+                <div class="regular-info-div">
+                    <div class="regular-name">
+                        <h3>Monthly Balance Project</h3>
+                    </div>
+                    <div class="regular-technologies">
+                        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="regular-description">
+                        <p>
+                            <strong>Description: </strong>
+                            The Monthly Balance Project is a basic, one-page
+                            JavaScript app. It allows the user to add and remove
+                            incomes and expenses, and calculate the balance for
+                            the ongoing month. The project was made after the
+                            fifth week of the IT Bootcamp's Front End
+                            Development Course as the first big project in plain
+                            JavaScript.
+                        </p>
+                    </div>
+                    <div class="regular-links">
+                        <a href="https://github.com/TatsuKenshi/Projekat_01">
+                            <button class="regular-btn">Code</button>
+                        </a>
+                        <a href="https://it-bootcamp-project-01.netlify.app/">
+                            <button class="regular-btn">Live</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info" id="info">
+            <h2># Info Corner</h2>
+            <div class="about-container">
+                <div class="card-buttons">
+                    <button class="card-btn">basic</button>
+                    <button class="card-btn">experience</button>
+                    <button class="card-btn">skills</button>
+                    <button class="card-btn">motto</button>
+                </div>
+
+                <div class="pics-and-info">
+                    <div class="photo-section">
+                        <img
+                            src="./assets/profile.png"
+                            class="profile-pic"
+                            alt="profile-pic"
+                            width="150px"
+                        />
+                    </div>
+
+                    <div class="info-section" id="basic">
+                        <div class="basic-info">
+                            <h3>Name: Miroslav Stankov</h3>
+                            <h3>City : Belgrade (Serbia)</h3>
+                            <h3>Email : stankovmiroslav85@gmail.com</h3>
+                            <a
+                                href="https://www.linkedin.com/in/miroslav-stankov-24712899/"
+                                ><img
+                                    src="./assets/linkedin.png"
+                                    alt="linkedin"
+                            /></a>
+                            <a href="https://github.com/TatsuKenshi"
+                                ><img src="./assets/github.png" alt="github"
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div class="info-section no-display" id="experience">
+                        <div class="experience">
+                            <div class="experience-item">
+                                <h3>Quantox Technology (Summer 2022)</h3>
+                                <p>
+                                    - 3-month Frontend Web Development
+                                    internship at Quantox Technology
+                                </p>
+                                <p>
+                                    - I worked with a mentor and a small team on
+                                    in-house projects
+                                </p>
+                                <p>
+                                    - We used react-router, tailwind.css, redux,
+                                    fetch/axios, external APIs, <br />
+                                    context/reducer, custom hooks, useForm hook,
+                                    Headless UI...
+                                </p>
+                            </div>
+
+                            <div class="experience-item">
+                                <h3>IT BootCamp (Summer/Autumn 2021)</h3>
+                                <p>
+                                    - 160-hour, 10-week course on front-end
+                                    development (JavaScript + React.js)
+                                </p>
+                            </div>
+
+                            <div class="experience-item">
+                                <h3>Udemy (Since Summer 2020)</h3>
+                                <p>
+                                    - John Smilga's JavaScript Course w/Projects
+                                    (50+ hours)
+                                </p>
+                                <p>
+                                    - John Smilga's React.js Course w/Projects
+                                    (50+ hours)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-section no-display" id="skills">
+                        <div class="skills">
+                            <button class="skill-btn">HTML</button>
+                            <button class="skill-btn">CSS</button>
+                            <button class="skill-btn">tailwind.css</button>
+                            <button class="skill-btn">SASS</button>
+                            <button class="skill-btn">Headless UI</button>
+                            <button class="skill-btn">JavaScript</button>
+                            <button class="skill-btn">AJAX</button>
+                            <button class="skill-btn">async/await</button>
+                            <button class="skill-btn">Fetch</button>
+                            <button class="skill-btn">React.js</button>
+                            <button class="skill-btn">Custom Hooks</button>
+                            <button class="skill-btn">useReducer</button>
+                            <button class="skill-btn">useContext</button>
+                            <button class="skill-btn">Redux/Toolkit</button>
+                            <button class="skill-btn">axios</button>
+                            <button class="skill-btn">styled components</button>
+                            <button class="skill-btn">Git</button>
+                            <button class="skill-btn">npm</button>
+                            <button class="skill-btn">yarn</button>
+                        </div>
+                    </div>
+
+                    <div class="info-section no-display" id="motto">
+                        <div class="motto">
+                            <p>
+                                It is said that when a samurai receives his two
+                                swords, his soul merges with the blades and he
+                                is only allowed to use them for good. The road
+                                to mastering the blades is tough, long, and
+                                winding, but the samurai has no qualms about it.
+                                Let coding and debugging become my swords!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h3>Made by Miroslav Stankov, 2022.</h3>
+        </footer>
+
+        <script src="./index.js"></script>
+    </body>
 </html>
