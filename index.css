@@ -507,6 +507,7 @@ li {
 
   .regular-links {
     /* display: block; */
+    /* display: block; */
     height: max-content;
   }
 
