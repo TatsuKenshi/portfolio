@@ -127,6 +127,32 @@ a {
   margin-top: 10px;
 }
 
+.back-home {
+  width: fit-content;
+  height: fit-content;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.back-home-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 800;
+  background: #fff;
+  border: 1px solid rgb(0, 128, 128);
+  color: rgb(0, 128, 128);
+  margin: 0 3px 0 3px;
+}
+
+.back-home-btn:hover {
+  background: rgb(255, 127, 127);
+  border: 1px solid rgb(255, 127, 127);
+  color: white;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 .featured-projects {
   width: 962px;
   margin: 0 auto;
